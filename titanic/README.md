@@ -62,24 +62,24 @@ The dataset contains the following variables:
 
 ## **Project Execution Plan**  
 
-#**1. Data Loading & Initial Inspection**
+**1. Data Loading & Initial Inspection**
    - Load the dataset (`train.csv`, `test.csv`) and verify successful loading.
    - Explore the dataset structure, check feature types, and inspect a few samples.
    - Identify missing values, inconsistencies, or formatting issues.
 
-#**2. Data Preprocessing**
+**2. Data Preprocessing**
    - Investigate missing values and decide on appropriate handling strategies (e.g., imputation, removal).
    - Identify and remove duplicate records if they exist.
    - Convert data types where necessary (e.g., categorical encoding).
    - Standardize and clean textual or categorical variables (e.g., embarked port codes).
 
-#**3. Exploratory Data Analysis (EDA)**
+**3. Exploratory Data Analysis (EDA)**
    - Visualize distributions of numerical and categorical variables.
    - Identify anomalies and outliers in numerical features.
    - Explore relationships between features and survival rate.
    - Perform feature selection to identify the most important predictors.
 
-#**4. Data Preparation & Feature Engineering**
+**4. Data Preparation & Feature Engineering**
    - Create a data preprocessing pipeline to automate transformations:
      - Handle missing values.
      - Encode categorical variables (e.g., one-hot encoding for `embarked`).
@@ -90,20 +90,20 @@ The dataset contains the following variables:
      - **Cabin information** grouping (if usable).
      - **Age grouping** to capture age-related survival trends.
 
-#**5. Model Training & Hyperparameter Tuning**
+**5. Model Training & Hyperparameter Tuning**
    - Split the dataset into training and validation subsets.
    - Train multiple machine learning models (Logistic Regression, Decision Trees, Random Forest, Gradient Boosting).
    - Tune hyperparameters using cross-validation.
    - Compare models based on performance metrics such as accuracy, precision, recall, and F1-score.
    - Handle class imbalance if necessary (e.g., through resampling techniques).
 
-#**6. Model Evaluation & Selection**
+**6. Model Evaluation & Selection**
    - Compare different models’ performance on validation data.
    - Choose the best-performing model based on accuracy and interpretability.
    - Analyze feature importance to understand which attributes contributed most to survival predictions.
    - Test the model on the unseen `test.csv` dataset.
 
-#**7. Conclusion & Documentation**
+**7. Conclusion & Documentation**
    - Summarize findings from data exploration and feature engineering.
    - Provide insights into why certain features were important.
    - Justify model selection and compare it with baseline models (e.g., gender-based assumptions).
