@@ -1,3 +1,6 @@
+This is my first independent Data Science project, based on free Kaggle tast and datasets.
+I tried to apply all of my skills, acquired in the Yandex Practicum Data Science course.
+
 # Titanic - Machine Learning from Disaster
 
 #### **Project Goal**  
